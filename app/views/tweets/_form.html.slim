@@ -1,0 +1,28 @@
+= render 'shared/errors'
+
+ruby:
+  form_options = {
+    html: { class: "form form-horizontal panel panel-primary" },
+    url: tweets_url,
+    method: :post
+  }
+
+= form_for :tweet, form_options do |f|
+  .panel-heading
+    | Post a Tweet
+  .panel-body
+    .form-group
+      .col-sm-12
+        = f.text_area :message, class: 'form-control', placeholder: "What's happening?"
+    .form-group
+      .col-sm-12
+        .input-group
+          = text_field_tag nil, nil, class: 'form-control', readonly: true, placeholder: "Upload Image"
+          label.input-group-btn
+            span.btn.btn-primary
+              | Choose&hellip;
+              = f.file_field :image, class: 'input-group-addon', style: 'display:none'
+  .panel-footer
+    .form-group
+      .col-sm-12
+        = f.submit "Tweet!", class: 'btn btn-primary pull-right'

@@ -1,0 +1,11 @@
+.media.panel.panel-default[id="tweet_#{tweet.id}"]
+  .panel-body
+    - if tweet.image.present?
+      .media-left.media-top
+        = image_tag tweet.image.url, class: 'media-object', size: '75x75'
+    .media-body
+      = tweet.message
+    .pull-right
+      = l(tweet.created_at)
+      '
+      = link_to "View", tweet.uri, target: '_blank'

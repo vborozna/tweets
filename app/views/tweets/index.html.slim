@@ -1,0 +1,9 @@
+= render 'form'
+br
+- if @tweets.present?
+  h2 Your Tweets
+  div#tweets
+    = render @tweets
+
+  .text-center
+    = paginate @tweets
