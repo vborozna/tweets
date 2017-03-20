@@ -32,11 +32,11 @@ group :development, :test do
 end
 
 group :test do
-# gem 'capybara'
-# gem 'capybara-webkit'
-# gem 'cucumber-rails', require: false
-# gem 'rspec-rails'
-# gem 'simplecov', require: false
+  # gem 'capybara'
+  # gem 'capybara-webkit'
+  # gem 'cucumber-rails', require: false
+  # gem 'rspec-rails'
+  # gem 'simplecov', require: false
 end
 
 group :development do
