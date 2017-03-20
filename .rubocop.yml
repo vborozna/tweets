@@ -1,0 +1,18 @@
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+
+Style/DotPosition:
+  EnforcedStyle: trailing
+  Enabled: true
+
+Metrics/LineLength:
+  Enabled: false
+
+Style/RegexpLiteral:
+  EnforcedStyle: mixed
+  Enabled: true
+
+Documentation:
+  Enabled: false
