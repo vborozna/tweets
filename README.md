@@ -1,24 +1,20 @@
-# README
+### Demo
+https://tweets-ikantam.herokuapp.com
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Installation
+Sign in into the [Twitter developer area](https://dev.twitter.com/apps) and create an application.
 
-Things you may want to cover:
+In the file, **.env**, set the appropriate values to:
 
-* Ruby version
+ * TWITTER_KEY
+ * TWITTER_SECRET
+ * SECRET_KEY_BASE
+ * DATABASE_URL
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run the commands below:
+```sh
+$ sudo apt-get install imagemagick
+$ bundle install
+$ rails db:create db:migrate
+$ rails server
+```
