@@ -1,6 +1,3 @@
-### Demo
-https://tweets-ikantam.herokuapp.com
-
 ### Installation
 Sign in into the [Twitter developer area](https://dev.twitter.com/apps) and create an application.
 
