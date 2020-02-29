@@ -7,7 +7,7 @@ gem 'rails', '~> 5.0.2'
 
 gem 'coffee-rails', '~> 4.2'
 gem 'less-rails'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.12'
 gem 'sass-rails', '5.0.6'
 gem 'uglifier', '>= 1.3.0'
 
