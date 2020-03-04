@@ -201,7 +201,7 @@ GEM
       byebug (~> 9.0)
       pry (~> 0.10)
     public_suffix (2.0.5)
-    puma (3.8.2)
+    puma (3.12.4)
     rack (2.0.1)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -349,7 +349,7 @@ DEPENDENCIES
   omniauth-twitter
   paperclip
   pry-byebug
-  puma (~> 3.0)
+  puma (~> 3.12)
   rails (~> 5.0.2)
   sass-rails (= 5.0.6)
   slim-rails
